@@ -1,0 +1,57 @@
+body{
+  background-image: linear-gradient(#FEF965, #FE5E01);
+  /* background-repeat: no-repeat */
+   /* Standard syntax (must be last) */
+
+}
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  60%;
+  }
+  ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+  color: #FE5E01
+}
+li {
+  float: left;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.umasslogo{
+  max-width: 30%;
+  height: auto;
+  padding: 50px;
+}
+
