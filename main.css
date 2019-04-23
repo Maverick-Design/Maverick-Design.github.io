@@ -1,5 +1,6 @@
 body{
-  background-image: linear-gradient(#FEF965, #FE5E01);
+  background-color: #f7d15c;
+  /* background-image: linear-gradient(#FEF965, #FE5E01); */
   /* background-repeat: no-repeat */
    /* Standard syntax (must be last) */
 
@@ -50,8 +51,7 @@ li {
   height: auto;
 }
 .umasslogo{
-  max-width: 30%;
+  max-width: 60%;
   height: auto;
   padding: 50px;
 }
-
