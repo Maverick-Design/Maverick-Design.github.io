@@ -3,24 +3,43 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Moon Rotate</title>
+    <title>Maverick Design</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="contact.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:italic,100,800" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
     <style>
    </style>
 </head>
 <body>
         <img src="images/header.svg" alt="Maverick" class="center" >
-        <ul>
-                <li><a class="home" href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <div class="nul">
+            <li><a class="home" href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+        <div class="h2">Contact Me</div>
+        <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname"><div class="category">First Name</div></label>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                
+                    <label for="lname"><div class="category">Last Name</div></label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                
+                    <label for="lname"><div class="category">Email</div></label>
+                    <input type="text" id="lname" name="lastname" placeholder="Email">
+    
+                    <label for="subject"><div class="category">Subject</div></label>
+                    <textarea id="subject" name="subject" placeholder="Leave a message" style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
 </body>
 </html>

@@ -12,7 +12,7 @@ body{
     margin-right: auto;
     width:  60%;
   }
-  ul {
+  .nul {
 
   list-style-type: none;
   margin: 0;
@@ -50,8 +50,65 @@ li {
   width: 100%;
   height: auto;
 }
-.umasslogo{
+/* .umasslogo{ 
   max-width: 60%;
   height: auto;
   padding: 50px;
+}
+*/
+.casual{
+  max-width: 20%;
+  height: auto;
+  padding:50px
+}
+.suit{
+  max-width: 20%;
+  height: auto;
+  padding:50px
+}
+
+.h2{
+  text-align: center;
+  font-family: 'Gugi', cursive;
+  font-weight: bold;
+  font-size: 40pt
+}
+ul{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt
+}
+.mainContainer {
+  display: grid;
+  grid-gap: 40px;
+  height: 100% ;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 10% 40% auto;
+  grid-template-areas: 
+      "h"
+}
+.scroll {
+  grid-area: h;
+}
+.card {
+  position: center;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  
+}
+.poster{
+  width: 200px;
+  height: 300px;
+}
+.top5{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    font-weight: bold;
+    font-size: 18pt
+}
+.resume{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
 }
